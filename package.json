@@ -1,0 +1,26 @@
+{
+  "name": "reserva-consultorios",
+  "version": "1.0.0",
+  "description": "Aplicación de reserva de consultorios (Node.js, React.js, GraphQL, MongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiaspintaluba/reserva-consultorios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiaspintaluba/reserva-consultorios/issues"
+  },
+  "homepage": "https://github.com/matiaspintaluba/reserva-consultorios#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
