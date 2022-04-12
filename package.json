@@ -4,7 +4,8 @@
   "description": "Aplicación de reserva de consultorios (Node.js, React.js, GraphQL, MongoDB)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   "homepage": "https://github.com/matiaspintaluba/reserva-consultorios#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
